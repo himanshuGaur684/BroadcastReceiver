@@ -22,14 +22,14 @@
         </activity>
 
 
-        <receiver android:name=".MyBroad"
-            android:directBootAware="true"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            </intent-filter>
+<!--        <receiver android:name=".MyBroad"-->
+<!--            android:directBootAware="true"-->
+<!--            android:exported="false">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.BOOT_COMPLETED"/>-->
+<!--            </intent-filter>-->
 
-        </receiver>
+<!--        </receiver>-->
 
 
     </application>
